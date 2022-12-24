@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-color: #080008;
+}
+.nav_list{
+    justify-content: center;
+    font-size: 20px;
+}
+
+/* Banner */
+.intro_box{
+    text-align: center;
+    margin: auto;
+}
+.intro_box h1{
+    font-size: 350%;
+    color: white;
+}
+.intro_box p{
+    font-size: 142%;
+    color: white;
+}
+.name{
+    color: #f93434;
+}
+.univer{
+    letter-spacing: 1.5px;
+}
+.intro_box button{
+margin-left:4%;
+}
+.btn_know,.btn-contact{
+    border: 2px solid white;
+    color: white;
+    font-size: 111%;
+}
+.btn_know:hover,.btn-contact:hover{
+   background-color:white;
+    font-size: 111%;
+    color: black;
+    
+}
+.image_col{
+    text-align: center;
+}
+.image_col img{
+    width: 60%;
+    margin-top: 36px;
+    animation-duration: 2s;
+}
+.box{
+    border: 2px solid white;
+    height: 300px;
+    position: absolute;
+    width: 20px;
+}
+
+/* About Us */
+.about_row p{
+   font-size: 119%;
+   letter-spacing: 1.6px;
+}
+.paras{
+    margin: auto auto;
+}
+.paras_1{
+    padding:2%;
+
+}
+.about_row img{
+width: 55%;
+/* border: 3px solid black; */
+box-shadow: -2px -1px 20px rgb(27, 27, 27);
+}
+
+.button_port{
+    color: white;
+    background-color: #f93434;
+    font-size: 18px;
+    margin: 2%;
+    
+}
+.button_port:hover{
+    border: 2px solid #f93434;
+}
+.videos{
+    width: 100%;
+    height: 344px;
+}
+.button_lec{
+    background-color: #080008;
+    color:white;
+    font-size: 20px;
+}
+.button_lec:hover{
+    border: 2px solid black;
+}
+#lectures{
+    background-image: url(img/image_4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 0.6%;
+   
+}
+#lectures h1{
+    color: white;
+    padding-top: 2%;
+}
+.button_lec{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    
+}
+.button_lec:hover{
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+}
+#social h1{
+    padding-top: 2%;
+}
+.button_social{
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    color: white;
+
+}
+.button_social:hover{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#contact{
+    background-color: #080008;
+    color:white;
+}
+.social_icons{
+    margin-top: 30px;
+}
+.social_icons i{
+    font-size: 150%;
+    color: white;
+    margin-right: 15px;
+    display: inline-block;
+}
+.social_icons i:hover{
+   color: #f93434;
+   transform: translateY(-5px);
+} 
+#contact{
+    padding-bottom: 2%;
+    background-image: url(img/image_6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contact_left p{
+    margin-top: 30px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.button_contact{
+    background-color: white;
+    margin-top: 0 !important;
+}
+.button_contact:hover{
+    background-color: #f93434;
+}
+.contact_right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: #262626;
+    padding:15px;
+    margin: 15px 0;
+    color: #080008;
+    border-radius: 6px;
+    color: white;
+}
+.copyright{
+    background-color: rgb(45, 45, 45);
+    
+}
+.copyright p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 0;
+
+}
+
